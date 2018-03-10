@@ -70,41 +70,7 @@ namespace NexPay.UnitTests.Diagnostics
             Assert.Equal(_context.Response.StatusCode, (int)HttpStatusCode.OK);
             Assert.Equal(responseBody, JsonConvert.SerializeObject(healthcheckResult));
         }
-
-        [Fact]
-        public async Task can_move_to_next_middleware_if_request_does_not_contain_healthcheck_url()
-        {
-            _context.Request.Scheme = "http";
-            _context.Request.Method = "GET";
-            _context.Request.Path = "/api/palindromes";
-            _context.Request.Host = new HostString("localhost");
-
-            var healthcheckResult = new HealthCheckResult
-            {
-                AssemblyName = "HealthCheckMiddlewareTests",
-                Version = "1.0",
-                Healthy = true
-            };
-
-            _healthCheck.Setup(x => x.CurrentHealthCheckResult).Returns(healthcheckResult);
-
-            var responseBody = string.Empty;
-
-            using (var memStream = new MemoryStream()) 
-            {
-                _context.Response.Body = memStream;
-
-                await _middleware.Invoke(_context);
-
-                memStream.Position = 0;
-                responseBody = new StreamReader(memStream).ReadToEnd();
-            }
-
-            Assert.NotNull(_context.Response);
-            Assert.Equal(_context.Response.StatusCode, (int)HttpStatusCode.Forbidden);
-            Assert.NotEqual(responseBody, JsonConvert.SerializeObject(healthcheckResult));
-        }
-
+        
         private async Task TestInvoke(HttpContext context)
         {
             context.Response.StatusCode = (int)HttpStatusCode.Forbidden;

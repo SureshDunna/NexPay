@@ -5,10 +5,11 @@ using Autofac.Extensions.DependencyInjection;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
-using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.FileProviders;
 using Microsoft.Extensions.Logging;
+using NexPayApi.BusinessLogic;
 using NexPayApi.Diagnostics;
 using NLog.Extensions.Logging;
 using NLog.Web;
@@ -36,6 +37,8 @@ namespace NexPayApi
         // This method gets called by the runtime. Use this method to add services to the container.
         public IServiceProvider ConfigureServices(IServiceCollection services)
         {
+            var environment = services.BuildServiceProvider().GetRequiredService<IHostingEnvironment>();
+
             services.AddMvc().AddControllersAsServices();
 
             // create a Autofac container builder
@@ -47,6 +50,8 @@ namespace NexPayApi
             // use and configure Autofac
             builder.RegisterType<HealthCheck>().As<IHealthCheck>().SingleInstance();
             builder.RegisterType<HttpContextAccessor>().As<IHttpContextAccessor>().SingleInstance();
+            builder.Register(f => new PhysicalFileProvider($"{environment.ContentRootPath}\\Data")).As<IFileProvider>().SingleInstance();
+            builder.RegisterType<PaymentRepository>().As<IPaymentRepository>().SingleInstance();
 
             // build the Autofac container
             ApplicationContainer = builder.Build();

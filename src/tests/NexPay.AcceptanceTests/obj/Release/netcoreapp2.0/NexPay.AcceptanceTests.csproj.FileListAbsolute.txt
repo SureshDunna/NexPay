@@ -16,3 +16,4 @@ D:\Work\Netcore\NexPay\src\tests\NexPay.AcceptanceTests\obj\Release\netcoreapp2.
 D:\Work\Netcore\NexPay\src\tests\NexPay.AcceptanceTests\obj\Release\netcoreapp2.0\NexPay.AcceptanceTests.AssemblyInfo.cs
 D:\Work\Netcore\NexPay\src\tests\NexPay.AcceptanceTests\obj\Release\netcoreapp2.0\NexPay.AcceptanceTests.dll
 D:\Work\Netcore\NexPay\src\tests\NexPay.AcceptanceTests\obj\Release\netcoreapp2.0\NexPay.AcceptanceTests.pdb
+D:\Work\Netcore\NexPay\src\tests\NexPay.AcceptanceTests\bin\Release\netcoreapp2.0\Data\Payment_1234

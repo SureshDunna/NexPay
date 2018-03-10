@@ -1,14 +1,39 @@
+using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
+using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using NexPayApi.BusinessLogic;
+using NexPayApi.Models;
+using Swashbuckle.AspNetCore.SwaggerGen;
 
 namespace NexPayApi.Controllers
 {
-    [Route("api")]
+    [Route("api/account")]
     public class AccountController : Controller
     {
-        [HttpGet("account/get")]
-        public IActionResult Get()
+        private readonly IPaymentRepository _paymentRepository;
+
+        public AccountController(IPaymentRepository paymentRepository)
         {
-            return Ok("This is get on Account Controller");
+            _paymentRepository = paymentRepository;
+        }
+
+        [HttpGet("paymentsto/{accountNumber}")]
+        [ProducesResponseType(typeof(IEnumerable<Payment>), 200)]
+        [SwaggerOperation(operationId: "GetPayments")]
+        public async Task<IActionResult> GetPayments(long accountNumber)
+        {
+            return Ok(await _paymentRepository.GetPaymentsAsync(accountNumber));
+        }
+
+        [HttpPost("transfer")]
+        [ProducesResponseType(typeof(void), 200)]
+        [SwaggerOperation(operationId: "Transfer")]
+        public async Task<IActionResult> Transfer([FromBody, Required] Payment payment)
+        {
+            await _paymentRepository.WritePaymentAsync(payment);
+
+            return Ok();
         }
     }
 }

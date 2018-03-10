@@ -18,5 +18,8 @@
         <None Update="appSettings.json">
             <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
         </None>
+        <None Include="Data/Payment_1234"
+				Link="Data/Payment_1234"
+				CopyToOutputDirectory="PreserveNewest"/>
     </ItemGroup>
 </Project>

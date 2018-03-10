@@ -1,0 +1,12 @@
+D:\Work\Netcore\NexPay\src\app\NexPayApi\obj\Release\netcoreapp2.0\NexPayApi.csproj.CoreCompileInputs.cache
+D:\Work\Netcore\NexPay\src\app\NexPayApi\obj\Release\netcoreapp2.0\NexPayApi.AssemblyInfoInputs.cache
+D:\Work\Netcore\NexPay\src\app\NexPayApi\obj\Release\netcoreapp2.0\NexPayApi.AssemblyInfo.cs
+D:\Work\Netcore\NexPay\src\app\NexPayApi\bin\Release\netcoreapp2.0\nlog.config
+D:\Work\Netcore\NexPay\src\app\NexPayApi\bin\Release\netcoreapp2.0\NexPayApi.xml
+D:\Work\Netcore\NexPay\src\app\NexPayApi\bin\Release\netcoreapp2.0\NexPayApi.deps.json
+D:\Work\Netcore\NexPay\src\app\NexPayApi\bin\Release\netcoreapp2.0\NexPayApi.runtimeconfig.json
+D:\Work\Netcore\NexPay\src\app\NexPayApi\bin\Release\netcoreapp2.0\NexPayApi.runtimeconfig.dev.json
+D:\Work\Netcore\NexPay\src\app\NexPayApi\bin\Release\netcoreapp2.0\NexPayApi.dll
+D:\Work\Netcore\NexPay\src\app\NexPayApi\bin\Release\netcoreapp2.0\NexPayApi.pdb
+D:\Work\Netcore\NexPay\src\app\NexPayApi\obj\Release\netcoreapp2.0\NexPayApi.dll
+D:\Work\Netcore\NexPay\src\app\NexPayApi\obj\Release\netcoreapp2.0\NexPayApi.pdb

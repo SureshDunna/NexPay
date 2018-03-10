@@ -1,0 +1,89 @@
+2018-03-10 15:27:31.1774 NexPayApi.Diagnostics.HealthCheck Start up: Health check successful: DB Health Check
+2018-03-10 15:32:31.3247 NexPayApi.Diagnostics.HealthCheck Scheduled: Health check successful: DB Health Check
+2018-03-10 15:37:31.3582 NexPayApi.Diagnostics.HealthCheck Scheduled: Health check successful: DB Health Check
+2018-03-10 15:38:02.2564 NexPayApi.Diagnostics.HealthCheck Start up: Health check successful: DB Health Check
+2018-03-10 15:39:03.2250 NexPayApi.Diagnostics.HealthCheck Start up: Health check successful: DB Health Check
+2018-03-10 15:43:20.9952 NexPayApi.Diagnostics.HealthCheck Start up: Health check successful: DB Health Check
+2018-03-10 15:48:21.0640 NexPayApi.Diagnostics.HealthCheck Scheduled: Health check successful: DB Health Check
+2018-03-10 15:49:53.3416 Microsoft.AspNetCore.Hosting.Internal.WebHost Request starting HTTP/1.1 GET http://localhost:5002/healthcheck/ping  
+2018-03-10 15:49:53.5809 Microsoft.AspNetCore.Hosting.Internal.WebHost Request finished in 240.7904ms 200 application/json; charset=utf-8
+2018-03-10 15:49:54.1721 Microsoft.AspNetCore.Hosting.Internal.WebHost Request starting HTTP/1.1 GET http://localhost:5002/favicon.ico  
+2018-03-10 15:49:54.5743 Microsoft.AspNetCore.Hosting.Internal.WebHost Request finished in 402.1904ms 404 
+2018-03-10 15:50:05.0566 Microsoft.AspNetCore.Hosting.Internal.WebHost Request starting HTTP/1.1 GET http://localhost:5002/swagger  
+2018-03-10 15:50:05.1005 Microsoft.AspNetCore.Hosting.Internal.WebHost Request finished in 43.8828ms 301 
+2018-03-10 15:50:05.1049 Microsoft.AspNetCore.Hosting.Internal.WebHost Request starting HTTP/1.1 GET http://localhost:5002/swagger/  
+2018-03-10 15:50:05.3611 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware Sending file. Request path: '/index.html'. Physical path: 'N/A'
+2018-03-10 15:50:05.3680 Microsoft.AspNetCore.Hosting.Internal.WebHost Request finished in 263.0854ms 200 text/html
+2018-03-10 15:50:05.4006 Microsoft.AspNetCore.Hosting.Internal.WebHost Request starting HTTP/1.1 GET http://localhost:5002/swagger/css/typography.css  
+2018-03-10 15:50:05.4006 Microsoft.AspNetCore.Hosting.Internal.WebHost Request starting HTTP/1.1 GET http://localhost:5002/swagger/css/reset.css  
+2018-03-10 15:50:05.4006 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware Sending file. Request path: '/css/reset.css'. Physical path: 'N/A'
+2018-03-10 15:50:05.4006 Microsoft.AspNetCore.Hosting.Internal.WebHost Request starting HTTP/1.1 GET http://localhost:5002/swagger/css/screen.css  
+2018-03-10 15:50:05.4006 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware Sending file. Request path: '/css/screen.css'. Physical path: 'N/A'
+2018-03-10 15:50:05.4006 Microsoft.AspNetCore.Hosting.Internal.WebHost Request finished in 4.1162ms 200 text/css
+2018-03-10 15:50:05.4006 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware Sending file. Request path: '/css/typography.css'. Physical path: 'N/A'
+2018-03-10 15:50:05.4135 Microsoft.AspNetCore.Hosting.Internal.WebHost Request finished in 12.9071ms 200 text/css
+2018-03-10 15:50:05.4006 Microsoft.AspNetCore.Hosting.Internal.WebHost Request finished in 5.0851ms 200 text/css
+2018-03-10 15:50:05.4549 Microsoft.AspNetCore.Hosting.Internal.WebHost Request starting HTTP/1.1 GET http://localhost:5002/swagger/lib/object-assign-pollyfill.js  
+2018-03-10 15:50:05.4549 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware Sending file. Request path: '/lib/object-assign-pollyfill.js'. Physical path: 'N/A'
+2018-03-10 15:50:05.4549 Microsoft.AspNetCore.Hosting.Internal.WebHost Request finished in 1.9385ms 200 application/javascript
+2018-03-10 15:50:05.5504 Microsoft.AspNetCore.Hosting.Internal.WebHost Request starting HTTP/1.1 GET http://localhost:5002/swagger/lib/jquery-1.8.0.min.js  
+2018-03-10 15:50:05.5504 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware Sending file. Request path: '/lib/jquery-1.8.0.min.js'. Physical path: 'N/A'
+2018-03-10 15:50:05.5548 Microsoft.AspNetCore.Hosting.Internal.WebHost Request starting HTTP/1.1 GET http://localhost:5002/swagger/lib/jquery.slideto.min.js  
+2018-03-10 15:50:05.5548 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware Sending file. Request path: '/lib/jquery.slideto.min.js'. Physical path: 'N/A'
+2018-03-10 15:50:05.5548 Microsoft.AspNetCore.Hosting.Internal.WebHost Request finished in 5.697ms 200 application/javascript
+2018-03-10 15:50:05.5548 Microsoft.AspNetCore.Hosting.Internal.WebHost Request starting HTTP/1.1 GET http://localhost:5002/swagger/lib/handlebars-4.0.5.js  
+2018-03-10 15:50:05.5548 Microsoft.AspNetCore.Hosting.Internal.WebHost Request starting HTTP/1.1 GET http://localhost:5002/swagger/lib/jquery.ba-bbq.min.js  
+2018-03-10 15:50:05.5548 Microsoft.AspNetCore.Hosting.Internal.WebHost Request starting HTTP/1.1 GET http://localhost:5002/swagger/lib/jquery.wiggle.min.js  
+2018-03-10 15:50:05.5698 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware Sending file. Request path: '/lib/jquery.wiggle.min.js'. Physical path: 'N/A'
+2018-03-10 15:50:05.5548 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware Sending file. Request path: '/lib/handlebars-4.0.5.js'. Physical path: 'N/A'
+2018-03-10 15:50:05.5698 Microsoft.AspNetCore.Hosting.Internal.WebHost Request finished in 16.2478ms 200 application/javascript
+2018-03-10 15:50:05.5548 Microsoft.AspNetCore.Hosting.Internal.WebHost Request starting HTTP/1.1 GET http://localhost:5002/swagger/lib/backbone-min.js  
+2018-03-10 15:50:05.5698 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware Sending file. Request path: '/lib/backbone-min.js'. Physical path: 'N/A'
+2018-03-10 15:50:05.5698 Microsoft.AspNetCore.Hosting.Internal.WebHost Request finished in 10.6861ms 200 application/javascript
+2018-03-10 15:50:05.5698 Microsoft.AspNetCore.Hosting.Internal.WebHost Request starting HTTP/1.1 GET http://localhost:5002/swagger/lib/lodash.min.js  
+2018-03-10 15:50:05.5698 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware Sending file. Request path: '/lib/jquery.ba-bbq.min.js'. Physical path: 'N/A'
+2018-03-10 15:50:05.5698 Microsoft.AspNetCore.Hosting.Internal.WebHost Request finished in 24.6063ms 200 application/javascript
+2018-03-10 15:50:05.5698 Microsoft.AspNetCore.Hosting.Internal.WebHost Request starting HTTP/1.1 GET http://localhost:5002/swagger/lib/highlight.9.1.0.pack.js  
+2018-03-10 15:50:05.5698 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware Sending file. Request path: '/lib/highlight.9.1.0.pack.js'. Physical path: 'N/A'
+2018-03-10 15:50:05.5860 Microsoft.AspNetCore.Hosting.Internal.WebHost Request finished in 3.2158ms 200 application/javascript
+2018-03-10 15:50:05.5860 Microsoft.AspNetCore.Hosting.Internal.WebHost Request starting HTTP/1.1 GET http://localhost:5002/swagger/lib/highlight.9.1.0.pack_extended.js  
+2018-03-10 15:50:05.5860 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware Sending file. Request path: '/lib/highlight.9.1.0.pack_extended.js'. Physical path: 'N/A'
+2018-03-10 15:50:05.5698 Microsoft.AspNetCore.Hosting.Internal.WebHost Request starting HTTP/1.1 GET http://localhost:5002/swagger/swagger-ui.min.js  
+2018-03-10 15:50:05.5860 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware Sending file. Request path: '/swagger-ui.min.js'. Physical path: 'N/A'
+2018-03-10 15:50:05.5698 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware Sending file. Request path: '/lib/lodash.min.js'. Physical path: 'N/A'
+2018-03-10 15:50:05.5860 Microsoft.AspNetCore.Hosting.Internal.WebHost Request finished in 14.9057ms 200 application/javascript
+2018-03-10 15:50:05.5860 Microsoft.AspNetCore.Hosting.Internal.WebHost Request finished in 1.9009ms 200 application/javascript
+2018-03-10 15:50:05.6016 Microsoft.AspNetCore.Hosting.Internal.WebHost Request finished in 36.6495ms 200 application/javascript
+2018-03-10 15:50:05.6016 Microsoft.AspNetCore.Hosting.Internal.WebHost Request finished in 51.1979ms 200 application/javascript
+2018-03-10 15:50:05.6356 Microsoft.AspNetCore.Hosting.Internal.WebHost Request starting HTTP/1.1 GET http://localhost:5002/swagger/lib/jsoneditor.min.js  
+2018-03-10 15:50:05.6356 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware Sending file. Request path: '/lib/jsoneditor.min.js'. Physical path: 'N/A'
+2018-03-10 15:50:05.6507 Microsoft.AspNetCore.Hosting.Internal.WebHost Request finished in 15.0102ms 200 application/javascript
+2018-03-10 15:50:05.6507 Microsoft.AspNetCore.Hosting.Internal.WebHost Request starting HTTP/1.1 GET http://localhost:5002/swagger/lib/swagger-oauth.js  
+2018-03-10 15:50:05.6507 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware Sending file. Request path: '/lib/swagger-oauth.js'. Physical path: 'N/A'
+2018-03-10 15:50:05.6661 Microsoft.AspNetCore.Hosting.Internal.WebHost Request finished in 12.3532ms 200 application/javascript
+2018-03-10 15:50:05.6356 Microsoft.AspNetCore.Hosting.Internal.WebHost Request starting HTTP/1.1 GET http://localhost:5002/swagger/lib/marked.js  
+2018-03-10 15:50:05.6661 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware Sending file. Request path: '/lib/marked.js'. Physical path: 'N/A'
+2018-03-10 15:50:05.6507 Microsoft.AspNetCore.Hosting.Internal.WebHost Request finished in 78.0528ms 200 application/javascript
+2018-03-10 15:50:05.6661 Microsoft.AspNetCore.Hosting.Internal.WebHost Request finished in 35.6166ms 200 application/javascript
+2018-03-10 15:50:05.6661 Microsoft.AspNetCore.Hosting.Internal.WebHost Request starting HTTP/1.1 GET http://localhost:5002/swagger/images/logo_small.png  
+2018-03-10 15:50:05.6661 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware Sending file. Request path: '/images/logo_small.png'. Physical path: 'N/A'
+2018-03-10 15:50:05.6802 Microsoft.AspNetCore.Hosting.Internal.WebHost Request finished in 3.4123ms 200 image/png
+2018-03-10 15:50:05.6802 Microsoft.AspNetCore.Hosting.Internal.WebHost Request starting HTTP/1.1 GET http://localhost:5002/swagger/css/print.css  
+2018-03-10 15:50:05.6802 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware Sending file. Request path: '/css/print.css'. Physical path: 'N/A'
+2018-03-10 15:50:05.6802 Microsoft.AspNetCore.Hosting.Internal.WebHost Request finished in 2.5358ms 200 text/css
+2018-03-10 15:50:06.4597 Microsoft.AspNetCore.Hosting.Internal.WebHost Request starting HTTP/1.1 GET http://localhost:5002/swagger/v1/swagger.json  
+2018-03-10 15:50:06.8157 Microsoft.AspNetCore.Hosting.Internal.WebHost Request starting HTTP/1.1 GET http://localhost:5002/swagger/images/favicon-32x32.png  
+2018-03-10 15:50:06.8279 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware Sending file. Request path: '/images/favicon-32x32.png'. Physical path: 'N/A'
+2018-03-10 15:50:06.8279 Microsoft.AspNetCore.Hosting.Internal.WebHost Request finished in 13.515ms 200 image/png
+2018-03-10 15:50:06.8373 Microsoft.AspNetCore.Hosting.Internal.WebHost Request starting HTTP/1.1 GET http://localhost:5002/swagger/images/favicon-16x16.png  
+2018-03-10 15:50:06.8373 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware Sending file. Request path: '/images/favicon-16x16.png'. Physical path: 'N/A'
+2018-03-10 15:50:06.8373 Microsoft.AspNetCore.Hosting.Internal.WebHost Request finished in 1.9333ms 200 image/png
+2018-03-10 15:50:07.0693 Microsoft.AspNetCore.Hosting.Internal.WebHost Request finished in 609.5682ms 200 application/json
+2018-03-10 15:50:21.6314 Microsoft.AspNetCore.Hosting.Internal.WebHost Request starting HTTP/1.1 GET http://localhost:5002/swagger/images/throbber.gif  
+2018-03-10 15:50:21.6328 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware Sending file. Request path: '/images/throbber.gif'. Physical path: 'N/A'
+2018-03-10 15:50:21.6328 Microsoft.AspNetCore.Hosting.Internal.WebHost Request finished in 2.7543ms 200 image/gif
+2018-03-10 15:50:23.5473 Microsoft.AspNetCore.Hosting.Internal.WebHost Request starting HTTP/1.1 GET http://localhost:5002/api/account/get  
+2018-03-10 15:50:23.7994 Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker Executing action method NexPayApi.Controllers.AccountController.Get (NexPayApi) with arguments ((null)) - ModelState is Valid
+2018-03-10 15:50:23.8123 Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+2018-03-10 15:50:23.8123 Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker Executed action NexPayApi.Controllers.AccountController.Get (NexPayApi) in 63.6719ms
+2018-03-10 15:50:23.8205 Microsoft.AspNetCore.Hosting.Internal.WebHost Request finished in 273.1686ms 200 text/plain; charset=utf-8

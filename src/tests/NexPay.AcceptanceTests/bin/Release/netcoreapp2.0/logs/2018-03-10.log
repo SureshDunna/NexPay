@@ -1,0 +1,10 @@
+2018-03-10 15:12:34.7685 NexPayApi.Diagnostics.HealthCheck Start up: Health check successful: DB Health Check
+2018-03-10 15:12:35.5659 Microsoft.AspNetCore.Hosting.Internal.WebHost Request starting HTTP/1.1 GET http://localhost/healthcheck/ping  
+2018-03-10 15:12:35.6316 Microsoft.AspNetCore.Hosting.Internal.WebHost Request finished in 69.5881ms 200 application/json; charset=utf-8
+2018-03-10 15:12:35.6896 NexPayApi.Diagnostics.HealthCheck Start up: Health check successful: DB Health Check
+2018-03-10 15:12:35.7169 Microsoft.AspNetCore.Hosting.Internal.WebHost Request starting HTTP/1.1 GET http://localhost/swagger/v1/swagger.json  
+2018-03-10 15:12:35.8066 Microsoft.AspNetCore.Hosting.Internal.WebHost Request finished in 89.7451ms 200 application/json
+2018-03-10 15:12:35.8358 NexPayApi.Diagnostics.HealthCheck Start up: Health check successful: DB Health Check
+2018-03-10 15:12:35.8518 Microsoft.AspNetCore.Hosting.Internal.WebHost Request starting HTTP/1.1 GET http://localhost/swagger/  
+2018-03-10 15:12:35.8518 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware Sending file. Request path: '/index.html'. Physical path: 'N/A'
+2018-03-10 15:12:35.8697 Microsoft.AspNetCore.Hosting.Internal.WebHost Request finished in 17.8594ms 200 text/html

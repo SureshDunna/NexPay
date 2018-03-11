@@ -6,7 +6,7 @@ using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
 using Newtonsoft.Json;
-using NexPayApi.Models;
+using NexPay.Models;
 using Xunit;
 
 namespace NexPay.AcceptanceTests
@@ -34,7 +34,7 @@ namespace NexPay.AcceptanceTests
 
                 Assert.NotNull(payments);
                 Assert.True(payments.ToList().Count > 0);
-                Assert.Contains(1234, payments.Select(x => x.AccountNumber));
+                Assert.Contains(1234, payments.Select(x => x.AccNo));
             }
         }
 
@@ -46,11 +46,11 @@ namespace NexPay.AcceptanceTests
                 var response = await client.PostAsync("http://localhost/api/account/transfer",
                 new StringContent(JsonConvert.SerializeObject(new Payment
                 {
-                    AccountNumber = 2345,
-                    AccountName = "NexPay",
+                    AccNo = 2345,
+                    AccName = "NexPay",
                     Amount = 1000,
                     BSB = "062000",
-                    Reference = "Payments from Acceptance Test"
+                    PayRef = "Payments from Acceptance Test"
                 }), Encoding.UTF8, "application/json"));
 
                 Assert.Equal(HttpStatusCode.OK, response.StatusCode);
@@ -63,7 +63,7 @@ namespace NexPay.AcceptanceTests
 
                 Assert.NotNull(payments);
                 Assert.True(payments.ToList().Count > 0);
-                Assert.Contains(2345, payments.Select(x => x.AccountNumber));
+                Assert.Contains(2345, payments.Select(x => x.AccNo));
             }
         }
     }

@@ -1,1 +1,1 @@
-[{"bsb":"12345","accountNumber":1234,"accountName":"string","reference":"string","amount":0.0},{"bsb":"12345","accountNumber":1234,"accountName":"string","reference":"string","amount":0.0},{"bsb":"12345","accountNumber":1234,"accountName":"string","reference":"string","amount":0.0}]
+[{"bsb":"12345","accNo":1234,"accName":"string","payRef":"string","amount":0.0}]

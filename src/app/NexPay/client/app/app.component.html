@@ -1,0 +1,55 @@
+<mat-toolbar class="mat-elevation-z6">
+  <span>NexPay Transfer Details</span> 
+</mat-toolbar>
+<mat-card>
+    <form flex class="container" [formGroup]="form" #accountsForm="ngForm" (submit)="formSubmit(accountsForm)">
+      <div class="row">
+          <div class="col-4">
+              <mat-form-field class="payment-full-width">
+                <input matInput placeholder="BSB" maxlength="6" minlength="6" id="bsb" formControlName="bsb">
+                  <mat-error *ngIf="shouldShowErrors(form.controls.bsb)">
+                    Please enter a valid bsb
+                  </mat-error>
+              </mat-form-field>
+          </div>
+          <div class="col-8">
+              <mat-form-field class="payment-full-width">
+                <input matInput placeholder="Account Number" maxlength="16" id="accNo" formControlName="accNo">
+                <mat-error *ngIf="shouldShowErrors(form.controls.accNo)">
+                  Please enter a valid Account Number
+                </mat-error>
+              </mat-form-field>
+          </div>
+      </div>
+      <div class="row col-12">
+          <mat-form-field class="payment-full-width">
+            <input matInput placeholder="Account Name" maxlength="50" id="accName" formControlName="accName">
+            <mat-error *ngIf="shouldShowErrors(form.controls.accName)">
+              Please enter a valid Account Name
+            </mat-error>
+          </mat-form-field>
+      </div>
+      <div class="row col-12">
+          <mat-form-field class="payment-full-width">
+            <input matInput placeholder="Reference" maxlength="16" ngModel id="payRef" formControlName="payRef">
+            <mat-hint>Reference for your payment</mat-hint>
+            <mat-error *ngIf="shouldShowErrors(form.controls.payRef)">
+              Please enter a valid Reference
+            </mat-error>
+          </mat-form-field>
+      </div>
+      <div class="row col-12">
+          <mat-form-field class="payment-full-width">
+            <input matInput placeholder="Amount" type="number" id="amount" formControlName="amount">
+            <mat-error *ngIf="shouldShowErrors(form.controls.amount)">
+              Please enter a valid Amount
+            </mat-error>
+          </mat-form-field>
+      </div>
+      <mat-card-actions align="right">
+          <button mat-raised-button color="primary">Submit</button>
+      </mat-card-actions>
+    </form>
+
+</mat-card> 
+

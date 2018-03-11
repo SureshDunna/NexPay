@@ -3,7 +3,7 @@ using System.Net;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Newtonsoft.Json;
-using NexPayApi.Extensions;
+using NexPay.Extensions;
 using Xunit;
 
 namespace NexPay.UnitTests.Extensions

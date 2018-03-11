@@ -1,0 +1,189 @@
+2018-03-11 23:19:15.8185 NexPayApi.Diagnostics.HealthCheck Start up: Health check failed: File System Health Check
+2018-03-11 23:19:15.8185 NexPayApi.Diagnostics.HealthCheck Start up: Health check failed: File System Health Check
+2018-03-11 23:19:16.6335 Microsoft.AspNetCore.Hosting.Internal.WebHost Request starting HTTP/1.1 GET http://localhost/api/account/paymentsto/1234  
+2018-03-11 23:19:16.6335 Microsoft.AspNetCore.Hosting.Internal.WebHost Request starting HTTP/1.1 GET http://localhost/healthcheck/ping  
+2018-03-11 23:19:16.7074 Microsoft.AspNetCore.Hosting.Internal.WebHost Request finished in 78.4986ms 200 application/json; charset=utf-8
+2018-03-11 23:19:16.7821 NexPayApi.Diagnostics.HealthCheck Start up: Health check failed: File System Health Check
+2018-03-11 23:19:16.7978 Microsoft.AspNetCore.Hosting.Internal.WebHost Request starting HTTP/1.1 GET http://localhost/swagger/v1/swagger.json  
+2018-03-11 23:19:16.9332 Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker Executing action method NexPayApi.Controllers.AccountController.GetPayments (NexPayApi) with arguments (1234) - ModelState is Valid
+2018-03-11 23:19:16.9845 Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+2018-03-11 23:19:17.0270 Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker Executed action NexPayApi.Controllers.AccountController.GetPayments (NexPayApi) in 147.087ms
+2018-03-11 23:19:17.0270 Microsoft.AspNetCore.Hosting.Internal.WebHost Request finished in 399.7461ms 200 application/json; charset=utf-8
+2018-03-11 23:19:17.0888 Microsoft.AspNetCore.Hosting.Internal.WebHost Request finished in 290.9461ms 200 application/json
+2018-03-11 23:19:17.1170 NexPayApi.Diagnostics.HealthCheck Start up: Health check failed: File System Health Check
+2018-03-11 23:19:17.1520 Microsoft.AspNetCore.Hosting.Internal.WebHost Request starting HTTP/1.1 GET http://localhost/swagger/  
+2018-03-11 23:19:17.1520 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware Sending file. Request path: '/index.html'. Physical path: 'N/A'
+2018-03-11 23:19:17.1639 Microsoft.AspNetCore.Hosting.Internal.WebHost Request finished in 11.907ms 200 text/html
+2018-03-11 23:19:17.2276 NexPayApi.Diagnostics.HealthCheck Start up: Health check failed: File System Health Check
+2018-03-11 23:19:17.2456 Microsoft.AspNetCore.Hosting.Internal.WebHost Request starting HTTP/1.1 POST http://localhost/api/account/transfer application/json; charset=utf-8 
+2018-03-11 23:19:17.2819 Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker Executing action method NexPayApi.Controllers.AccountController.Transfer (NexPayApi) with arguments (NexPayApi.Models.Payment) - ModelState is Valid
+2018-03-11 23:19:17.3017 Microsoft.AspNetCore.Mvc.StatusCodeResult Executing HttpStatusCodeResult, setting HTTP status code 200
+2018-03-11 23:19:17.3017 Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker Executed action NexPayApi.Controllers.AccountController.Transfer (NexPayApi) in 44.3658ms
+2018-03-11 23:19:17.3017 Microsoft.AspNetCore.Hosting.Internal.WebHost Request finished in 58.327ms 200 
+2018-03-11 23:19:17.3017 Microsoft.AspNetCore.Hosting.Internal.WebHost Request starting HTTP/1.1 GET http://localhost/api/account/paymentsto/2345  
+2018-03-11 23:19:17.3017 Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker Executing action method NexPayApi.Controllers.AccountController.GetPayments (NexPayApi) with arguments (2345) - ModelState is Valid
+2018-03-11 23:19:17.3184 Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+2018-03-11 23:19:17.3184 Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker Executed action NexPayApi.Controllers.AccountController.GetPayments (NexPayApi) in 8.6859ms
+2018-03-11 23:19:17.3184 Microsoft.AspNetCore.Hosting.Internal.WebHost Request finished in 16.4058ms 200 application/json; charset=utf-8
+2018-03-11 23:21:02.5333 NexPayApi.Diagnostics.HealthCheck Start up: Health check failed: File System Health Check
+2018-03-11 23:21:02.5333 NexPayApi.Diagnostics.HealthCheck Start up: Health check failed: File System Health Check
+2018-03-11 23:21:02.7626 Microsoft.AspNetCore.Hosting.Internal.WebHost Request starting HTTP/1.1 GET http://localhost/api/account/paymentsto/1234  
+2018-03-11 23:21:02.7626 Microsoft.AspNetCore.Hosting.Internal.WebHost Request starting HTTP/1.1 GET http://localhost/healthcheck/ping  
+2018-03-11 23:21:02.8289 Microsoft.AspNetCore.Hosting.Internal.WebHost Request finished in 70.9241ms 200 application/json; charset=utf-8
+2018-03-11 23:21:02.8927 NexPayApi.Diagnostics.HealthCheck Start up: Health check failed: File System Health Check
+2018-03-11 23:21:02.9198 Microsoft.AspNetCore.Hosting.Internal.WebHost Request starting HTTP/1.1 GET http://localhost/swagger/v1/swagger.json  
+2018-03-11 23:21:02.9797 Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker Executing action method NexPayApi.Controllers.AccountController.GetPayments (NexPayApi) with arguments (1234) - ModelState is Valid
+2018-03-11 23:21:03.0477 Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+2018-03-11 23:21:03.0635 Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker Executed action NexPayApi.Controllers.AccountController.GetPayments (NexPayApi) in 116.1774ms
+2018-03-11 23:21:03.0651 Microsoft.AspNetCore.Hosting.Internal.WebHost Request finished in 307.2345ms 200 application/json; charset=utf-8
+2018-03-11 23:21:03.2092 NexPayApi.Diagnostics.HealthCheck Start up: Health check failed: File System Health Check
+2018-03-11 23:21:03.2296 Microsoft.AspNetCore.Hosting.Internal.WebHost Request finished in 309.8085ms 200 application/json
+2018-03-11 23:21:03.2407 Microsoft.AspNetCore.Hosting.Internal.WebHost Request starting HTTP/1.1 POST http://localhost/api/account/transfer application/json; charset=utf-8 
+2018-03-11 23:21:03.2672 NexPayApi.Diagnostics.HealthCheck Start up: Health check failed: File System Health Check
+2018-03-11 23:21:03.2886 Microsoft.AspNetCore.Hosting.Internal.WebHost Request starting HTTP/1.1 GET http://localhost/swagger/  
+2018-03-11 23:21:03.2886 Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker Executing action method NexPayApi.Controllers.AccountController.Transfer (NexPayApi) with arguments (NexPayApi.Models.Payment) - ModelState is Valid
+2018-03-11 23:21:03.2886 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware Sending file. Request path: '/index.html'. Physical path: 'N/A'
+2018-03-11 23:21:03.3020 Microsoft.AspNetCore.Hosting.Internal.WebHost Request finished in 13.3618ms 200 text/html
+2018-03-11 23:21:03.3020 Microsoft.AspNetCore.Mvc.StatusCodeResult Executing HttpStatusCodeResult, setting HTTP status code 200
+2018-03-11 23:21:03.3020 Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker Executed action NexPayApi.Controllers.AccountController.Transfer (NexPayApi) in 52.5505ms
+2018-03-11 23:21:03.3020 Microsoft.AspNetCore.Hosting.Internal.WebHost Request finished in 73.4138ms 200 
+2018-03-11 23:21:03.3020 Microsoft.AspNetCore.Hosting.Internal.WebHost Request starting HTTP/1.1 GET http://localhost/api/account/paymentsto/2345  
+2018-03-11 23:21:03.3215 Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker Executing action method NexPayApi.Controllers.AccountController.GetPayments (NexPayApi) with arguments (2345) - ModelState is Valid
+2018-03-11 23:21:03.3215 Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+2018-03-11 23:21:03.3310 Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker Executed action NexPayApi.Controllers.AccountController.GetPayments (NexPayApi) in 9.7606ms
+2018-03-11 23:21:03.3310 Microsoft.AspNetCore.Hosting.Internal.WebHost Request finished in 17.352ms 200 application/json; charset=utf-8
+2018-03-11 23:22:59.6845 NexPayApi.Diagnostics.HealthCheck Start up: Health check failed: File System Health Check
+2018-03-11 23:22:59.6845 NexPayApi.Diagnostics.HealthCheck Start up: Health check failed: File System Health Check
+2018-03-11 23:22:59.9305 Microsoft.AspNetCore.Hosting.Internal.WebHost Request starting HTTP/1.1 GET http://localhost/api/account/paymentsto/1234  
+2018-03-11 23:22:59.9305 Microsoft.AspNetCore.Hosting.Internal.WebHost Request starting HTTP/1.1 GET http://localhost/healthcheck/ping  
+2018-03-11 23:23:00.0085 Microsoft.AspNetCore.Hosting.Internal.WebHost Request finished in 82.567ms 200 application/json; charset=utf-8
+2018-03-11 23:23:00.0688 NexPayApi.Diagnostics.HealthCheck Start up: Health check failed: File System Health Check
+2018-03-11 23:23:00.0979 Microsoft.AspNetCore.Hosting.Internal.WebHost Request starting HTTP/1.1 GET http://localhost/swagger/v1/swagger.json  
+2018-03-11 23:23:00.1718 Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker Executing action method NexPayApi.Controllers.AccountController.GetPayments (NexPayApi) with arguments (1234) - ModelState is Valid
+2018-03-11 23:23:00.2532 Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+2018-03-11 23:23:00.2532 Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker Executed action NexPayApi.Controllers.AccountController.GetPayments (NexPayApi) in 134.0303ms
+2018-03-11 23:23:00.2532 Microsoft.AspNetCore.Hosting.Internal.WebHost Request finished in 341.691ms 200 application/json; charset=utf-8
+2018-03-11 23:23:00.3276 NexPayApi.Diagnostics.HealthCheck Start up: Health check failed: File System Health Check
+2018-03-11 23:23:00.3586 Microsoft.AspNetCore.Hosting.Internal.WebHost Request starting HTTP/1.1 POST http://localhost/api/account/transfer application/json; charset=utf-8 
+2018-03-11 23:23:00.3905 Microsoft.AspNetCore.Hosting.Internal.WebHost Request finished in 292.6489ms 200 application/json
+2018-03-11 23:23:00.4145 Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker Executing action method NexPayApi.Controllers.AccountController.Transfer (NexPayApi) with arguments (NexPayApi.Models.Payment) - ModelState is Valid
+2018-03-11 23:23:00.4366 NexPayApi.Diagnostics.HealthCheck Start up: Health check failed: File System Health Check
+2018-03-11 23:23:00.4366 Microsoft.AspNetCore.Mvc.StatusCodeResult Executing HttpStatusCodeResult, setting HTTP status code 200
+2018-03-11 23:23:00.4366 Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker Executed action NexPayApi.Controllers.AccountController.Transfer (NexPayApi) in 63.3371ms
+2018-03-11 23:23:00.4412 Microsoft.AspNetCore.Hosting.Internal.WebHost Request finished in 82.5253ms 200 
+2018-03-11 23:23:00.4412 Microsoft.AspNetCore.Hosting.Internal.WebHost Request starting HTTP/1.1 GET http://localhost/api/account/paymentsto/2345  
+2018-03-11 23:23:00.4653 Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker Executing action method NexPayApi.Controllers.AccountController.GetPayments (NexPayApi) with arguments (2345) - ModelState is Valid
+2018-03-11 23:23:00.4653 Microsoft.AspNetCore.Hosting.Internal.WebHost Request starting HTTP/1.1 GET http://localhost/swagger/  
+2018-03-11 23:23:00.4761 Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+2018-03-11 23:23:00.4761 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware Sending file. Request path: '/index.html'. Physical path: 'N/A'
+2018-03-11 23:23:00.4761 Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker Executed action NexPayApi.Controllers.AccountController.GetPayments (NexPayApi) in 14.2743ms
+2018-03-11 23:23:00.4761 Microsoft.AspNetCore.Hosting.Internal.WebHost Request finished in 39.4817ms 200 application/json; charset=utf-8
+2018-03-11 23:23:00.4761 Microsoft.AspNetCore.Hosting.Internal.WebHost Request finished in 16.5521ms 200 text/html
+2018-03-11 23:24:04.8488 NexPayApi.Diagnostics.HealthCheck Start up: Health check failed: File System Health Check
+2018-03-11 23:24:04.8488 NexPayApi.Diagnostics.HealthCheck Start up: Health check failed: File System Health Check
+2018-03-11 23:24:05.0869 Microsoft.AspNetCore.Hosting.Internal.WebHost Request starting HTTP/1.1 GET http://localhost/healthcheck/ping  
+2018-03-11 23:24:05.0869 Microsoft.AspNetCore.Hosting.Internal.WebHost Request starting HTTP/1.1 GET http://localhost/api/account/paymentsto/1234  
+2018-03-11 23:24:05.1558 Microsoft.AspNetCore.Hosting.Internal.WebHost Request finished in 73.6408ms 200 application/json; charset=utf-8
+2018-03-11 23:24:05.2200 NexPayApi.Diagnostics.HealthCheck Start up: Health check failed: File System Health Check
+2018-03-11 23:24:05.2510 Microsoft.AspNetCore.Hosting.Internal.WebHost Request starting HTTP/1.1 GET http://localhost/swagger/v1/swagger.json  
+2018-03-11 23:24:05.3042 Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker Executing action method NexPayApi.Controllers.AccountController.GetPayments (NexPayApi) with arguments (1234) - ModelState is Valid
+2018-03-11 23:24:05.3537 Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+2018-03-11 23:24:05.4043 Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker Executed action NexPayApi.Controllers.AccountController.GetPayments (NexPayApi) in 132.698ms
+2018-03-11 23:24:05.4043 Microsoft.AspNetCore.Hosting.Internal.WebHost Request finished in 323.6197ms 200 application/json; charset=utf-8
+2018-03-11 23:24:05.5257 NexPayApi.Diagnostics.HealthCheck Start up: Health check failed: File System Health Check
+2018-03-11 23:24:05.5513 Microsoft.AspNetCore.Hosting.Internal.WebHost Request finished in 300.2829ms 200 application/json
+2018-03-11 23:24:05.5513 Microsoft.AspNetCore.Hosting.Internal.WebHost Request starting HTTP/1.1 POST http://localhost/api/account/transfer application/json; charset=utf-8 
+2018-03-11 23:24:05.6032 NexPayApi.Diagnostics.HealthCheck Start up: Health check failed: File System Health Check
+2018-03-11 23:24:05.6222 Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker Executing action method NexPayApi.Controllers.AccountController.Transfer (NexPayApi) with arguments (NexPayApi.Models.Payment) - ModelState is Valid
+2018-03-11 23:24:05.6222 Microsoft.AspNetCore.Hosting.Internal.WebHost Request starting HTTP/1.1 GET http://localhost/swagger/  
+2018-03-11 23:24:05.6320 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware Sending file. Request path: '/index.html'. Physical path: 'N/A'
+2018-03-11 23:24:05.6320 Microsoft.AspNetCore.Hosting.Internal.WebHost Request finished in 14.3688ms 200 text/html
+2018-03-11 23:24:05.6437 Microsoft.AspNetCore.Mvc.StatusCodeResult Executing HttpStatusCodeResult, setting HTTP status code 200
+2018-03-11 23:24:05.6437 Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker Executed action NexPayApi.Controllers.AccountController.Transfer (NexPayApi) in 57.7953ms
+2018-03-11 23:24:05.6437 Microsoft.AspNetCore.Hosting.Internal.WebHost Request finished in 92.5282ms 200 
+2018-03-11 23:24:05.6437 Microsoft.AspNetCore.Hosting.Internal.WebHost Request starting HTTP/1.1 GET http://localhost/api/account/paymentsto/2345  
+2018-03-11 23:24:05.6437 Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker Executing action method NexPayApi.Controllers.AccountController.GetPayments (NexPayApi) with arguments (2345) - ModelState is Valid
+2018-03-11 23:24:05.6628 Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+2018-03-11 23:24:05.6628 Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker Executed action NexPayApi.Controllers.AccountController.GetPayments (NexPayApi) in 9.5296ms
+2018-03-11 23:24:05.6628 Microsoft.AspNetCore.Hosting.Internal.WebHost Request finished in 17.4071ms 200 application/json; charset=utf-8
+2018-03-11 23:28:07.4702 NexPayApi.Diagnostics.HealthCheck Start up: Health check failed: File System Health Check
+2018-03-11 23:28:07.4702 NexPayApi.Diagnostics.HealthCheck Start up: Health check failed: File System Health Check
+2018-03-11 23:28:07.8812 Microsoft.AspNetCore.Hosting.Internal.WebHost Request starting HTTP/1.1 GET http://localhost/api/account/paymentsto/1234  
+2018-03-11 23:28:07.8812 Microsoft.AspNetCore.Hosting.Internal.WebHost Request starting HTTP/1.1 GET http://localhost/healthcheck/ping  
+2018-03-11 23:28:07.9544 Microsoft.AspNetCore.Hosting.Internal.WebHost Request finished in 78.8718ms 200 application/json; charset=utf-8
+2018-03-11 23:28:08.0305 NexPayApi.Diagnostics.HealthCheck Start up: Health check failed: File System Health Check
+2018-03-11 23:28:08.0472 Microsoft.AspNetCore.Hosting.Internal.WebHost Request starting HTTP/1.1 GET http://localhost/swagger/v1/swagger.json  
+2018-03-11 23:28:08.1238 Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker Executing action method NexPayApi.Controllers.AccountController.GetPayments (NexPayApi) with arguments (1234) - ModelState is Valid
+2018-03-11 23:28:08.1827 Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+2018-03-11 23:28:08.1957 Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker Executed action NexPayApi.Controllers.AccountController.GetPayments (NexPayApi) in 110.0492ms
+2018-03-11 23:28:08.1957 Microsoft.AspNetCore.Hosting.Internal.WebHost Request finished in 322.6905ms 200 application/json; charset=utf-8
+2018-03-11 23:28:08.3398 Microsoft.AspNetCore.Hosting.Internal.WebHost Request finished in 292.6805ms 200 application/json
+2018-03-11 23:28:08.3530 NexPayApi.Diagnostics.HealthCheck Start up: Health check failed: File System Health Check
+2018-03-11 23:28:08.3903 Microsoft.AspNetCore.Hosting.Internal.WebHost Request starting HTTP/1.1 POST http://localhost/api/account/transfer application/json; charset=utf-8 
+2018-03-11 23:28:08.3954 NexPayApi.Diagnostics.HealthCheck Start up: Health check failed: File System Health Check
+2018-03-11 23:28:08.4146 Microsoft.AspNetCore.Hosting.Internal.WebHost Request starting HTTP/1.1 GET http://localhost/swagger/  
+2018-03-11 23:28:08.4146 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware Sending file. Request path: '/index.html'. Physical path: 'N/A'
+2018-03-11 23:28:08.4284 Microsoft.AspNetCore.Hosting.Internal.WebHost Request finished in 13.7796ms 200 text/html
+2018-03-11 23:28:08.4284 Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker Executing action method NexPayApi.Controllers.AccountController.Transfer (NexPayApi) with arguments (NexPayApi.Models.Payment) - ModelState is Valid
+2018-03-11 23:28:08.4790 Microsoft.AspNetCore.Mvc.StatusCodeResult Executing HttpStatusCodeResult, setting HTTP status code 200
+2018-03-11 23:28:08.4790 Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker Executed action NexPayApi.Controllers.AccountController.Transfer (NexPayApi) in 71.1ms
+2018-03-11 23:28:08.4790 Microsoft.AspNetCore.Hosting.Internal.WebHost Request finished in 91.3531ms 200 
+2018-03-11 23:28:08.4790 Microsoft.AspNetCore.Hosting.Internal.WebHost Request starting HTTP/1.1 GET http://localhost/api/account/paymentsto/2345  
+2018-03-11 23:28:08.4895 Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker Executing action method NexPayApi.Controllers.AccountController.GetPayments (NexPayApi) with arguments (2345) - ModelState is Valid
+2018-03-11 23:28:08.4895 Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+2018-03-11 23:28:08.4895 Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker Executed action NexPayApi.Controllers.AccountController.GetPayments (NexPayApi) in 8.5044ms
+2018-03-11 23:28:08.4895 Microsoft.AspNetCore.Hosting.Internal.WebHost Request finished in 16.5355ms 200 application/json; charset=utf-8
+2018-03-11 23:29:35.9809 NexPayApi.Diagnostics.HealthCheck Start up: Health check failed: File System Health Check
+2018-03-11 23:29:35.9809 NexPayApi.Diagnostics.HealthCheck Start up: Health check failed: File System Health Check
+2018-03-11 23:29:36.2139 Microsoft.AspNetCore.Hosting.Internal.WebHost Request starting HTTP/1.1 GET http://localhost/api/account/paymentsto/1234  
+2018-03-11 23:29:36.2139 Microsoft.AspNetCore.Hosting.Internal.WebHost Request starting HTTP/1.1 GET http://localhost/healthcheck/ping  
+2018-03-11 23:29:36.2833 Microsoft.AspNetCore.Hosting.Internal.WebHost Request finished in 74.0638ms 200 application/json; charset=utf-8
+2018-03-11 23:29:36.3448 NexPayApi.Diagnostics.HealthCheck Start up: Health check failed: File System Health Check
+2018-03-11 23:29:36.3746 Microsoft.AspNetCore.Hosting.Internal.WebHost Request starting HTTP/1.1 GET http://localhost/swagger/v1/swagger.json  
+2018-03-11 23:29:36.4338 Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker Executing action method NexPayApi.Controllers.AccountController.GetPayments (NexPayApi) with arguments (1234) - ModelState is Valid
+2018-03-11 23:29:36.4836 Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+2018-03-11 23:29:36.5117 Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker Executed action NexPayApi.Controllers.AccountController.GetPayments (NexPayApi) in 114.2858ms
+2018-03-11 23:29:36.5117 Microsoft.AspNetCore.Hosting.Internal.WebHost Request finished in 304.0652ms 200 application/json; charset=utf-8
+2018-03-11 23:29:36.5639 NexPayApi.Diagnostics.HealthCheck Start up: Health check failed: File System Health Check
+2018-03-11 23:29:36.6443 Microsoft.AspNetCore.Hosting.Internal.WebHost Request starting HTTP/1.1 POST http://localhost/api/account/transfer application/json; charset=utf-8 
+2018-03-11 23:29:36.6919 Microsoft.AspNetCore.Hosting.Internal.WebHost Request finished in 317.3971ms 200 application/json
+2018-03-11 23:29:36.6919 Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker Executing action method NexPayApi.Controllers.AccountController.Transfer (NexPayApi) with arguments (NexPayApi.Models.Payment) - ModelState is Valid
+2018-03-11 23:29:36.7209 Microsoft.AspNetCore.Mvc.StatusCodeResult Executing HttpStatusCodeResult, setting HTTP status code 200
+2018-03-11 23:29:36.7224 Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker Executed action NexPayApi.Controllers.AccountController.Transfer (NexPayApi) in 63.0389ms
+2018-03-11 23:29:36.7224 Microsoft.AspNetCore.Hosting.Internal.WebHost Request finished in 79.337ms 200 
+2018-03-11 23:29:36.7224 Microsoft.AspNetCore.Hosting.Internal.WebHost Request starting HTTP/1.1 GET http://localhost/api/account/paymentsto/2345  
+2018-03-11 23:29:36.7224 Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker Executing action method NexPayApi.Controllers.AccountController.GetPayments (NexPayApi) with arguments (2345) - ModelState is Valid
+2018-03-11 23:29:36.7224 NexPayApi.Diagnostics.HealthCheck Start up: Health check failed: File System Health Check
+2018-03-11 23:29:36.7406 Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+2018-03-11 23:29:36.7581 Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker Executed action NexPayApi.Controllers.AccountController.GetPayments (NexPayApi) in 27.6929ms
+2018-03-11 23:29:36.7581 Microsoft.AspNetCore.Hosting.Internal.WebHost Request finished in 35.5251ms 200 application/json; charset=utf-8
+2018-03-11 23:29:36.7720 Microsoft.AspNetCore.Hosting.Internal.WebHost Request starting HTTP/1.1 GET http://localhost/swagger/  
+2018-03-11 23:29:36.7720 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware Sending file. Request path: '/index.html'. Physical path: 'N/A'
+2018-03-11 23:29:36.7844 Microsoft.AspNetCore.Hosting.Internal.WebHost Request finished in 12.3617ms 200 text/html
+2018-03-11 23:33:37.8883 NexPayApi.Diagnostics.HealthCheck Start up: Health check failed: File System Health Check
+2018-03-11 23:33:37.8883 NexPayApi.Diagnostics.HealthCheck Start up: Health check failed: File System Health Check
+2018-03-11 23:33:38.1785 Microsoft.AspNetCore.Hosting.Internal.WebHost Request starting HTTP/1.1 GET http://localhost/healthcheck/ping  
+2018-03-11 23:33:38.1785 Microsoft.AspNetCore.Hosting.Internal.WebHost Request starting HTTP/1.1 GET http://localhost/api/account/paymentsto/1234  
+2018-03-11 23:33:38.2533 Microsoft.AspNetCore.Hosting.Internal.WebHost Request finished in 79.3431ms 200 application/json; charset=utf-8
+2018-03-11 23:33:38.3106 NexPayApi.Diagnostics.HealthCheck Start up: Health check failed: File System Health Check
+2018-03-11 23:33:38.3395 Microsoft.AspNetCore.Hosting.Internal.WebHost Request starting HTTP/1.1 GET http://localhost/swagger/v1/swagger.json  
+2018-03-11 23:33:38.4021 Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker Executing action method NexPayApi.Controllers.AccountController.GetPayments (NexPayApi) with arguments (1234) - ModelState is Valid
+2018-03-11 23:33:38.4254 Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+2018-03-11 23:33:38.4254 Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker Executed action NexPayApi.Controllers.AccountController.GetPayments (NexPayApi) in 74.9448ms
+2018-03-11 23:33:38.4409 Microsoft.AspNetCore.Hosting.Internal.WebHost Request finished in 267.1036ms 200 application/json; charset=utf-8
+2018-03-11 23:33:38.5049 NexPayApi.Diagnostics.HealthCheck Start up: Health check failed: File System Health Check
+2018-03-11 23:33:38.5244 Microsoft.AspNetCore.Hosting.Internal.WebHost Request starting HTTP/1.1 POST http://localhost/api/account/transfer application/json; charset=utf-8 
+2018-03-11 23:33:38.5752 Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker Executing action method NexPayApi.Controllers.AccountController.Transfer (NexPayApi) with arguments (NexPayApi.Models.Payment) - ModelState is Valid
+2018-03-11 23:33:38.5929 Microsoft.AspNetCore.Hosting.Internal.WebHost Request finished in 253.4666ms 200 application/json
+2018-03-11 23:33:38.6729 Microsoft.AspNetCore.Mvc.StatusCodeResult Executing HttpStatusCodeResult, setting HTTP status code 200
+2018-03-11 23:33:38.6747 Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker Executed action NexPayApi.Controllers.AccountController.Transfer (NexPayApi) in 129.5697ms
+2018-03-11 23:33:38.6747 Microsoft.AspNetCore.Hosting.Internal.WebHost Request finished in 154.3057ms 200 
+2018-03-11 23:33:38.6747 Microsoft.AspNetCore.Hosting.Internal.WebHost Request starting HTTP/1.1 GET http://localhost/api/account/paymentsto/2345  
+2018-03-11 23:33:38.6747 Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker Executing action method NexPayApi.Controllers.AccountController.GetPayments (NexPayApi) with arguments (2345) - ModelState is Valid
+2018-03-11 23:33:38.6954 NexPayApi.Diagnostics.HealthCheck Start up: Health check failed: File System Health Check
+2018-03-11 23:33:38.6954 Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+2018-03-11 23:33:38.6954 Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker Executed action NexPayApi.Controllers.AccountController.GetPayments (NexPayApi) in 17.0931ms
+2018-03-11 23:33:38.7059 Microsoft.AspNetCore.Hosting.Internal.WebHost Request finished in 26.9473ms 200 application/json; charset=utf-8
+2018-03-11 23:33:38.7059 Microsoft.AspNetCore.Hosting.Internal.WebHost Request starting HTTP/1.1 GET http://localhost/swagger/  
+2018-03-11 23:33:38.7224 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware Sending file. Request path: '/index.html'. Physical path: 'N/A'
+2018-03-11 23:33:38.7224 Microsoft.AspNetCore.Hosting.Internal.WebHost Request finished in 12.7681ms 200 text/html

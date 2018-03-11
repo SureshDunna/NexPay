@@ -11,7 +11,7 @@
     </ItemGroup>
 
     <ItemGroup>
-        <ProjectReference Include="..\..\app\NexPayApi\NexPayApi.csproj" />
+        <ProjectReference Include="..\..\app\NexPay\NexPay.csproj" />
     </ItemGroup>
 
     <ItemGroup>

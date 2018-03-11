@@ -10,7 +10,7 @@
         "dependencies": {
           "Microsoft.AspNetCore.TestHost": "2.0.1",
           "Microsoft.NET.Test.Sdk": "15.3.0",
-          "NexPayApi": "1.0.0",
+          "NexPay": "1.0.0",
           "xunit": "2.2.0",
           "xunit.runner.visualstudio": "2.2.0"
         },
@@ -3848,7 +3848,7 @@
           "System.Threading.ThreadPool": "4.3.0"
         }
       },
-      "NexPayApi/1.0.0": {
+      "NexPay/1.0.0": {
         "dependencies": {
           "Autofac": "4.6.2",
           "Autofac.Extensions.DependencyInjection": "4.2.0",
@@ -3859,7 +3859,7 @@
           "Swashbuckle.AspNetCore": "1.1.0"
         },
         "runtime": {
-          "NexPayApi.dll": {}
+          "NexPay.dll": {}
         }
       }
     }
@@ -6110,7 +6110,7 @@
       "path": "xunit.runner.visualstudio/2.2.0",
       "hashPath": "xunit.runner.visualstudio.2.2.0.nupkg.sha512"
     },
-    "NexPayApi/1.0.0": {
+    "NexPay/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

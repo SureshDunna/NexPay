@@ -2,7 +2,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27130.2036
 MinimumVisualStudioVersion = 15.0.26124.0
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NexPayApi", "app\NexPayApi\NexPayApi.csproj", "{BDA5D76F-4831-4660-9363-AE325EF0EFE0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NexPay", "app\NexPay\NexPay.csproj", "{BDA5D76F-4831-4660-9363-AE325EF0EFE0}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{948DFAFE-3CD0-40AC-A297-BDDD17EFC0FC}"
 EndProject

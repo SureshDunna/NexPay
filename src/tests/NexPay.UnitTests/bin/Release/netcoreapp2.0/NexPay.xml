@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>NexPay</name>
+    </assembly>
+    <members>
+        <member name="M:NexPay.Diagnostics.HealthCheckBase.ConfigureHealthChecks">
+            <summary>
+            Registers all health check calls to be performed
+            </summary>
+        </member>
+    </members>
+</doc>

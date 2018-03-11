@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Moq;
 using Newtonsoft.Json;
-using NexPayApi.Diagnostics;
+using NexPay.Diagnostics;
 using Xunit;
 
 namespace NexPay.UnitTests.Diagnostics

@@ -1,1 +1,1 @@
-[{"BSB":"062000","AccountNumber":2345,"AccountName":"NexPay","Reference":"Payments from Acceptance Test","Amount":1000.0},{"BSB":null,"AccountNumber":2345,"AccountName":null,"Reference":null,"Amount":10000.0}]
+[{"BSB":"062000","AccNo":2345,"AccName":"NexPay","PayRef":"Payments from Acceptance Test","Amount":1000.0},{"BSB":null,"AccNo":2345,"AccName":null,"PayRef":null,"Amount":10000.0}]

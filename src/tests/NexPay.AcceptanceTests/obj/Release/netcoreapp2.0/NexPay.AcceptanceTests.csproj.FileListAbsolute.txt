@@ -8,12 +8,12 @@ D:\Work\Netcore\NexPay\src\tests\NexPay.AcceptanceTests\bin\Release\netcoreapp2.
 D:\Work\Netcore\NexPay\src\tests\NexPay.AcceptanceTests\bin\Release\netcoreapp2.0\NexPay.AcceptanceTests.runtimeconfig.dev.json
 D:\Work\Netcore\NexPay\src\tests\NexPay.AcceptanceTests\bin\Release\netcoreapp2.0\NexPay.AcceptanceTests.dll
 D:\Work\Netcore\NexPay\src\tests\NexPay.AcceptanceTests\bin\Release\netcoreapp2.0\NexPay.AcceptanceTests.pdb
-D:\Work\Netcore\NexPay\src\tests\NexPay.AcceptanceTests\bin\Release\netcoreapp2.0\NexPayApi.dll
-D:\Work\Netcore\NexPay\src\tests\NexPay.AcceptanceTests\bin\Release\netcoreapp2.0\NexPayApi.pdb
-D:\Work\Netcore\NexPay\src\tests\NexPay.AcceptanceTests\bin\Release\netcoreapp2.0\NexPayApi.xml
 D:\Work\Netcore\NexPay\src\tests\NexPay.AcceptanceTests\obj\Release\netcoreapp2.0\NexPay.AcceptanceTests.csproj.CoreCompileInputs.cache
 D:\Work\Netcore\NexPay\src\tests\NexPay.AcceptanceTests\obj\Release\netcoreapp2.0\NexPay.AcceptanceTests.AssemblyInfoInputs.cache
 D:\Work\Netcore\NexPay\src\tests\NexPay.AcceptanceTests\obj\Release\netcoreapp2.0\NexPay.AcceptanceTests.AssemblyInfo.cs
 D:\Work\Netcore\NexPay\src\tests\NexPay.AcceptanceTests\obj\Release\netcoreapp2.0\NexPay.AcceptanceTests.dll
 D:\Work\Netcore\NexPay\src\tests\NexPay.AcceptanceTests\obj\Release\netcoreapp2.0\NexPay.AcceptanceTests.pdb
 D:\Work\Netcore\NexPay\src\tests\NexPay.AcceptanceTests\bin\Release\netcoreapp2.0\Data\Payment_1234
+D:\Work\Netcore\NexPay\src\tests\NexPay.AcceptanceTests\bin\Release\netcoreapp2.0\NexPay.dll
+D:\Work\Netcore\NexPay\src\tests\NexPay.AcceptanceTests\bin\Release\netcoreapp2.0\NexPay.pdb
+D:\Work\Netcore\NexPay\src\tests\NexPay.AcceptanceTests\bin\Release\netcoreapp2.0\NexPay.xml

@@ -14,6 +14,8 @@ if($LASTEXITCODE -ne 0) { exit 1}
 dotnet build $Solution --configuration Release /p:Version=$ArtifactVersion --no-restore
 if($LASTEXITCODE -ne 0) { exit 1}
 
+npm --prefix ./src/app/nexpay run build
+
 foreach($project in dotnet sln $Solution list){
     if($project.ToLower().EndsWith('tests.csproj')){
         Write-Output "Running tests in $project"

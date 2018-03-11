@@ -7,11 +7,11 @@ D:\Work\Netcore\NexPay\src\tests\NexPay.UnitTests\bin\Release\netcoreapp2.0\NexP
 D:\Work\Netcore\NexPay\src\tests\NexPay.UnitTests\bin\Release\netcoreapp2.0\NexPay.UnitTests.runtimeconfig.dev.json
 D:\Work\Netcore\NexPay\src\tests\NexPay.UnitTests\bin\Release\netcoreapp2.0\NexPay.UnitTests.dll
 D:\Work\Netcore\NexPay\src\tests\NexPay.UnitTests\bin\Release\netcoreapp2.0\NexPay.UnitTests.pdb
-D:\Work\Netcore\NexPay\src\tests\NexPay.UnitTests\bin\Release\netcoreapp2.0\NexPayApi.dll
-D:\Work\Netcore\NexPay\src\tests\NexPay.UnitTests\bin\Release\netcoreapp2.0\NexPayApi.pdb
-D:\Work\Netcore\NexPay\src\tests\NexPay.UnitTests\bin\Release\netcoreapp2.0\NexPayApi.xml
 D:\Work\Netcore\NexPay\src\tests\NexPay.UnitTests\obj\Release\netcoreapp2.0\NexPay.UnitTests.csproj.CoreCompileInputs.cache
 D:\Work\Netcore\NexPay\src\tests\NexPay.UnitTests\obj\Release\netcoreapp2.0\NexPay.UnitTests.AssemblyInfoInputs.cache
 D:\Work\Netcore\NexPay\src\tests\NexPay.UnitTests\obj\Release\netcoreapp2.0\NexPay.UnitTests.AssemblyInfo.cs
 D:\Work\Netcore\NexPay\src\tests\NexPay.UnitTests\obj\Release\netcoreapp2.0\NexPay.UnitTests.dll
 D:\Work\Netcore\NexPay\src\tests\NexPay.UnitTests\obj\Release\netcoreapp2.0\NexPay.UnitTests.pdb
+D:\Work\Netcore\NexPay\src\tests\NexPay.UnitTests\bin\Release\netcoreapp2.0\NexPay.dll
+D:\Work\Netcore\NexPay\src\tests\NexPay.UnitTests\bin\Release\netcoreapp2.0\NexPay.pdb
+D:\Work\Netcore\NexPay\src\tests\NexPay.UnitTests\bin\Release\netcoreapp2.0\NexPay.xml

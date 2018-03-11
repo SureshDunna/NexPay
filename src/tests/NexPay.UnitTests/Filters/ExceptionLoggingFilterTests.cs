@@ -8,7 +8,7 @@ using Microsoft.AspNetCore.Routing;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Logging.Internal;
 using Moq;
-using NexPayApi.Filters;
+using NexPay.Filters;
 using Xunit;
 
 namespace NexPay.UnitTests.Filters

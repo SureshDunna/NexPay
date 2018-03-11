@@ -4,8 +4,8 @@ using System.Threading.Tasks;
 using Microsoft.Extensions.FileProviders;
 using Microsoft.Extensions.Logging;
 using Moq;
-using NexPayApi.BusinessLogic;
-using NexPayApi.Models;
+using NexPay.BusinessLogic;
+using NexPay.Models;
 using Xunit;
 
 namespace NexPay.UnitTests.BusinessLogic
@@ -28,12 +28,12 @@ namespace NexPay.UnitTests.BusinessLogic
         public async Task can_retrieve_payments()
         {
             _fileInfo.Setup(x => x.Exists).Returns(true);
-            _fileInfo.Setup(x => x.CreateReadStream()).Returns(GenerateStreamFromString("[{\"bsb\":\"062000\",\"accountNumber\":2345,\"accountName\":\"NexPay\",\"reference\":\"Payments from Acceptance Test\",\"amount\":1000.0}]"));
+            _fileInfo.Setup(x => x.CreateReadStream()).Returns(GenerateStreamFromString("[{\"bsb\":\"062000\",\"accNo\":2345,\"accName\":\"NexPay\",\"payRef\":\"Payments from Acceptance Test\",\"amount\":1000.0}]"));
             var payments = await _paymentRepository.GetPaymentsAsync(2345);
 
             Assert.NotNull(payments);
             Assert.True(payments.ToList().Count > 0);
-            Assert.Contains(2345, payments.Select(x => x.AccountNumber));
+            Assert.Contains(2345, payments.Select(x => x.AccNo));
         }
 
         [Fact]
@@ -58,10 +58,10 @@ namespace NexPay.UnitTests.BusinessLogic
         public async Task can_update_payments()
         {
             _fileInfo.Setup(x => x.Exists).Returns(true);
-            _fileInfo.Setup(x => x.CreateReadStream()).Returns(GenerateStreamFromString("[{\"bsb\":\"062000\",\"accountNumber\":2345,\"accountName\":\"NexPay\",\"reference\":\"Payments from Acceptance Test\",\"amount\":1000.0}]"));
+            _fileInfo.Setup(x => x.CreateReadStream()).Returns(GenerateStreamFromString("[{\"bsb\":\"062000\",\"accNo\":2345,\"accName\":\"NexPay\",\"payRef\":\"Payments from Acceptance Test\",\"amount\":1000.0}]"));
             _fileInfo.Setup(x => x.PhysicalPath).Returns(Path.Combine(Directory.GetCurrentDirectory(), "Payment_2345"));
             await _paymentRepository.WritePaymentAsync(new Payment{
-               AccountNumber = 2345,
+               AccNo = 2345,
                Amount = 10000 
             });
 

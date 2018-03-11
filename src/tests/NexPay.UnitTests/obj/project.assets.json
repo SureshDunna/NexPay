@@ -5625,7 +5625,7 @@
           "build/netcoreapp1.0/xunit.runner.visualstudio.props": {}
         }
       },
-      "NexPayApi/1.0.0": {
+      "NexPay/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.0",
         "dependencies": {
@@ -5639,10 +5639,10 @@
           "Swashbuckle.AspNetCore": "1.1.0"
         },
         "compile": {
-          "bin/placeholder/NexPayApi.dll": {}
+          "bin/placeholder/NexPay.dll": {}
         },
         "runtime": {
-          "bin/placeholder/NexPayApi.dll": {}
+          "bin/placeholder/NexPay.dll": {}
         }
       }
     }
@@ -14402,10 +14402,10 @@
         "xunit.runner.visualstudio.nuspec"
       ]
     },
-    "NexPayApi/1.0.0": {
+    "NexPay/1.0.0": {
       "type": "project",
-      "path": "../../app/NexPayApi/NexPayApi.csproj",
-      "msbuildProject": "../../app/NexPayApi/NexPayApi.csproj"
+      "path": "../../app/NexPay/NexPay.csproj",
+      "msbuildProject": "../../app/NexPay/NexPay.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -14414,7 +14414,7 @@
       "Microsoft.NET.Test.Sdk >= 15.3.0",
       "Microsoft.NETCore.App >= 2.0.0",
       "Moq >= 4.7.145",
-      "NexPayApi >= 1.0.0",
+      "NexPay >= 1.0.0",
       "xunit >= 2.2.0",
       "xunit.runner.visualstudio >= 2.2.0"
     ]
@@ -14448,8 +14448,8 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "D:\\Work\\Netcore\\NexPay\\src\\app\\NexPayApi\\NexPayApi.csproj": {
-              "projectPath": "D:\\Work\\Netcore\\NexPay\\src\\app\\NexPayApi\\NexPayApi.csproj"
+            "D:\\Work\\Netcore\\NexPay\\src\\app\\NexPay\\NexPay.csproj": {
+              "projectPath": "D:\\Work\\Netcore\\NexPay\\src\\app\\NexPay\\NexPay.csproj"
             }
           }
         }
